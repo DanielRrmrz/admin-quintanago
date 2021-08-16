@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 
 import { AuthRoutingModule } from './auth-routing.module';
 import { LoginComponent } from './pages/login/login.component';
+import { ButtonModule } from 'primeng/button';
 
 
 @NgModule({
   declarations: [LoginComponent],
   imports: [
     CommonModule,
-    AuthRoutingModule
+    AuthRoutingModule,
+    ButtonModule
   ]
 })
 export class AuthModule { }
